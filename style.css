@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+#container {
+    width: 100%;
+}
+
+#d1 {
+    margin: auto;
+    width: 20%;
+    height: 20rem;
+    background-color: black;
+    transition: background-color, height, width;
+    transition-timing-function: linear;
+    transition-duration: 6s;
+}
+
+#d1:hover {
+    background-color: lightgray;
+    height: 30rem;
+    width: 30rem;
+
+}
+
+#d2 {
+    margin: auto;
+    padding: 5px;
+    background-color: lightgray;
+    transition: background-color, font-size;
+    transition-duration: 6s;
+    width: 20%;
+    height: 20rem;
+}
+
+#d2:hover {
+    background-color: cadetblue;
+    font-size: large;
+}
